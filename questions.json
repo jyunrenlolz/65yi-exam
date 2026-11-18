@@ -1,97 +1,962 @@
 [
   {
     "id": 1,
-    "category": "文件格式",
     "type": "single",
-    "question": "依題庫文件中的文件記述規範，文件內的日期、時間、座標、番號及數量通常使用哪種數字？",
+    "category": "文件與行政",
+    "question": "文件橫式書寫方向？",
     "options": [
-      "國字數字",
-      "阿拉伯數字",
-      "羅馬數字",
-      "依文件類型自行選擇"
+      "由左至右",
+      "由右至左",
+      "由下至上",
+      "隨意排列"
     ],
     "answer": [
-      1
+      0
     ],
-    "explanation": "文件中的日期、時間、座標、番號及數量，依文件所列規範使用阿拉伯數字。"
+    "explanation": "正確答案：由左至右。"
   },
   {
     "id": 2,
-    "category": "文件格式",
-    "type": "truefalse",
-    "question": "文件記述原則採由左至右的橫式書寫。",
+    "type": "single",
+    "category": "文件與行政",
+    "question": "文件頁碼用途？",
     "options": [
-      "是",
-      "否"
+      "方便定位",
+      "增加容量",
+      "隱藏資訊",
+      "取代標題"
     ],
     "answer": [
       0
     ],
-    "explanation": "文件中列示的記述原則為由左至右橫式書寫。"
+    "explanation": "正確答案：方便定位。"
   },
   {
     "id": 3,
-    "category": "文件格式",
     "type": "single",
-    "question": "文件記述時，通常應重視哪些基本特性？",
+    "category": "文件與行政",
+    "question": "日期數字表示？",
     "options": [
-      "簡明、清晰、易於閱讀",
-      "篇幅越長越完整",
-      "使用大量縮寫",
-      "避免段落分隔"
+      "阿拉伯數字",
+      "隨意符號",
+      "圖畫",
+      "空白"
     ],
     "answer": [
       0
     ],
-    "explanation": "文件記述原則強調簡明、清晰及易於閱讀。"
+    "explanation": "正確答案：阿拉伯數字。"
   },
   {
     "id": 4,
-    "category": "文件格式",
-    "type": "multiple",
-    "question": "依文件記述規範，下列哪些項目通常以阿拉伯數字記述？（複選）",
+    "type": "single",
+    "category": "文件與行政",
+    "question": "文件校對重點？",
     "options": [
-      "日期",
-      "時間",
-      "座標",
-      "數量"
+      "內容正確",
+      "顏色最多",
+      "字數最多",
+      "圖片最多"
     ],
     "answer": [
-      0,
-      1,
-      2,
-      3
+      0
     ],
-    "explanation": "題庫列示日期、時間、座標、番號及數量等均以阿拉伯數字記述。"
+    "explanation": "正確答案：內容正確。"
   },
   {
     "id": 5,
-    "category": "文件格式",
     "type": "single",
-    "question": "需要區分文件序號層級時，應依什麼原則？",
+    "category": "文件與行政",
+    "question": "文件標題作用？",
     "options": [
-      "固定使用同一符號",
-      "依規範的層級順序記述",
-      "以日期排序",
-      "依字數多寡排列"
+      "指出主題",
+      "取代全文",
+      "增加頁數",
+      "隱藏資料"
     ],
     "answer": [
-      1
+      0
     ],
-    "explanation": "文件中的序號層級應依規範順序記述。"
+    "explanation": "正確答案：指出主題。"
   },
   {
     "id": 6,
-    "category": "文件格式",
-    "type": "truefalse",
-    "question": "文件記述可以忽略清晰度，只要內容完整即可。",
+    "type": "single",
+    "category": "文件與行政",
+    "question": "清單條列好處？",
     "options": [
-      "是",
-      "否"
+      "提升易讀性",
+      "混淆順序",
+      "減少辨識",
+      "隱藏內容"
     ],
     "answer": [
-      1
+      0
     ],
-    "explanation": "文件記述除內容外，亦強調簡明、清晰及易於閱讀。"
+    "explanation": "正確答案：提升易讀性。"
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "category": "文件與行政",
+    "question": "多人編輯文件？",
+    "options": [
+      "保留修訂紀錄",
+      "覆蓋全部版本",
+      "取消日期",
+      "不需檢查"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：保留修訂紀錄。"
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "category": "文件與行政",
+    "question": "引用資料應注意？",
+    "options": [
+      "來源正確",
+      "裝飾效果",
+      "字體顏色",
+      "字數最多"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：來源正確。"
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "category": "文件與行政",
+    "question": "正式文件應追求？",
+    "options": [
+      "清楚簡明",
+      "重複冗長",
+      "字型混亂",
+      "段落無序"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：清楚簡明。"
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "category": "文件與行政",
+    "question": "文件分段作用？",
+    "options": [
+      "方便閱讀",
+      "降低辨識",
+      "隱藏資訊",
+      "取代頁碼"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：方便閱讀。"
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "CPU主要功能？",
+    "options": [
+      "執行運算",
+      "列印紙張",
+      "提供插座",
+      "播放紙本"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：執行運算。"
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "RAM主要用途？",
+    "options": [
+      "暫存資料",
+      "永久列印",
+      "提供帳號",
+      "傳送包裹"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：暫存資料。"
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "常見作業系統？",
+    "options": [
+      "Windows",
+      "HTML",
+      "JPEG",
+      "USB"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：Windows。"
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "PDF副檔名？",
+    "options": [
+      ".pdf",
+      ".mp3",
+      ".png",
+      ".exe"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：.pdf。"
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "常見圖片副檔名？",
+    "options": [
+      ".png",
+      ".txt",
+      ".csv",
+      ".html"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：.png。"
+  },
+  {
+    "id": 16,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "常見試算表副檔名？",
+    "options": [
+      ".xlsx",
+      ".mp4",
+      ".wav",
+      ".jpg"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：.xlsx。"
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "複製快捷鍵？",
+    "options": [
+      "Ctrl+C",
+      "Ctrl+S",
+      "Ctrl+F",
+      "Ctrl+P"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：Ctrl+C。"
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "貼上快捷鍵？",
+    "options": [
+      "Ctrl+V",
+      "Ctrl+Z",
+      "Ctrl+A",
+      "Ctrl+N"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：Ctrl+V。"
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "儲存快捷鍵？",
+    "options": [
+      "Ctrl+S",
+      "Ctrl+F",
+      "Ctrl+P",
+      "Ctrl+L"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：Ctrl+S。"
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "category": "電腦基礎",
+    "question": "搜尋文字快捷鍵？",
+    "options": [
+      "Ctrl+F",
+      "Ctrl+E",
+      "Ctrl+W",
+      "Ctrl+N"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：Ctrl+F。"
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "強密碼特性？",
+    "options": [
+      "長且不重複",
+      "只用生日",
+      "與帳號相同",
+      "全部共用"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：長且不重複。"
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "雙重驗證目的？",
+    "options": [
+      "保護帳號",
+      "加快下載",
+      "增加亮度",
+      "清除紀錄"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：保護帳號。"
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "不明連結處理？",
+    "options": [
+      "確認來源",
+      "立即輸入密碼",
+      "轉傳所有人",
+      "關閉更新"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：確認來源。"
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "釣魚郵件目的？",
+    "options": [
+      "騙取資訊",
+      "整理文件",
+      "增加容量",
+      "清潔鍵盤"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：騙取資訊。"
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "軟體更新好處？",
+    "options": [
+      "修補安全問題",
+      "更換螢幕",
+      "修理網路線",
+      "清理桌面"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：修補安全問題。"
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "重要檔案保護？",
+    "options": [
+      "定期備份",
+      "只留一份",
+      "隨意刪除",
+      "取消命名"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：定期備份。"
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "共用電腦用畢？",
+    "options": [
+      "登出帳號",
+      "保留登入",
+      "分享密碼",
+      "停用保護"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：登出帳號。"
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "驗證碼處理？",
+    "options": [
+      "不隨意分享",
+      "公開留言",
+      "交給陌生人",
+      "貼在網頁"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：不隨意分享。"
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "個資分享前？",
+    "options": [
+      "確認必要性",
+      "全部公開",
+      "忽略權限",
+      "使用陌生連結"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：確認必要性。"
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "category": "資訊安全",
+    "question": "可靠備份方式？",
+    "options": [
+      "保留異地副本",
+      "只放同一硬碟",
+      "從不檢查",
+      "只留暫存"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：保留異地副本。"
+  },
+  {
+    "id": 31,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "HTML主要用途？",
+    "options": [
+      "網頁結構",
+      "硬碟轉速",
+      "螢幕材質",
+      "電源供應"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：網頁結構。"
+  },
+  {
+    "id": 32,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "CSS主要用途？",
+    "options": [
+      "視覺樣式",
+      "帳號驗證",
+      "伺服器供電",
+      "壓縮檔案"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：視覺樣式。"
+  },
+  {
+    "id": 33,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "JavaScript主要用途？",
+    "options": [
+      "網頁互動",
+      "更換螢幕",
+      "列印墨水",
+      "接網路線"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：網頁互動。"
+  },
+  {
+    "id": 34,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "HTTPS通常表示？",
+    "options": [
+      "加密連線",
+      "網站絕對安全",
+      "不用密碼",
+      "不用更新"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：加密連線。"
+  },
+  {
+    "id": 35,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "響應式設計目的？",
+    "options": [
+      "適配不同螢幕",
+      "固定字體",
+      "禁止手機",
+      "只支援桌機"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：適配不同螢幕。"
+  },
+  {
+    "id": 36,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "網頁連結用途？",
+    "options": [
+      "前往其他資源",
+      "增加硬碟",
+      "提高音量",
+      "更換鍵盤"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：前往其他資源。"
+  },
+  {
+    "id": 37,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "JSON用途？",
+    "options": [
+      "結構化資料",
+      "圖片像素",
+      "聲音波形",
+      "墨水管理"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：結構化資料。"
+  },
+  {
+    "id": 38,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "網站首頁常見檔名？",
+    "options": [
+      "index.html",
+      "photo.png",
+      "notes.txt",
+      "sound.mp3"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：index.html。"
+  },
+  {
+    "id": 39,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "GitHub Pages適用？",
+    "options": [
+      "靜態網站",
+      "實體郵件",
+      "手機基地台",
+      "硬體驅動"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：靜態網站。"
+  },
+  {
+    "id": 40,
+    "type": "single",
+    "category": "網頁基礎",
+    "question": "網頁按鈕互動技術？",
+    "options": [
+      "JavaScript",
+      "PDF",
+      "PNG",
+      "ZIP"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：JavaScript。"
+  },
+  {
+    "id": 41,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "12頁讀完5頁剩下？",
+    "options": [
+      "7",
+      "5",
+      "12",
+      "17"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：7。"
+  },
+  {
+    "id": 42,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "每組4人共3組？",
+    "options": [
+      "12",
+      "7",
+      "9",
+      "16"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：12。"
+  },
+  {
+    "id": 43,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "20題答對15題正確率？",
+    "options": [
+      "75%",
+      "60%",
+      "80%",
+      "90%"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：75%。"
+  },
+  {
+    "id": 44,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "40題答錯8題答對？",
+    "options": [
+      "32",
+      "30",
+      "28",
+      "34"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：32。"
+  },
+  {
+    "id": 45,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "10分鐘等於幾秒？",
+    "options": [
+      "600",
+      "100",
+      "60",
+      "1000"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：600。"
+  },
+  {
+    "id": 46,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "星期二三天後？",
+    "options": [
+      "星期五",
+      "星期四",
+      "星期六",
+      "星期日"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：星期五。"
+  },
+  {
+    "id": 47,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "數列2、4、6、8下一項？",
+    "options": [
+      "10",
+      "9",
+      "12",
+      "14"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：10。"
+  },
+  {
+    "id": 48,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "1小時有幾分鐘？",
+    "options": [
+      "60",
+      "100",
+      "30",
+      "90"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：60。"
+  },
+  {
+    "id": 49,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "50的一半？",
+    "options": [
+      "25",
+      "20",
+      "30",
+      "15"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：25。"
+  },
+  {
+    "id": 50,
+    "type": "single",
+    "category": "基礎計算",
+    "question": "8乘以7？",
+    "options": [
+      "56",
+      "54",
+      "64",
+      "48"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：56。"
+  },
+  {
+    "id": 51,
+    "type": "single",
+    "category": "資料整理",
+    "question": "試算表列欄交會？",
+    "options": [
+      "儲存格",
+      "分頁",
+      "標題列",
+      "工作表"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：儲存格。"
+  },
+  {
+    "id": 52,
+    "type": "single",
+    "category": "資料整理",
+    "question": "資料排序用途？",
+    "options": [
+      "依規則排列",
+      "刪除所有資料",
+      "變更硬體",
+      "關閉檔案"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：依規則排列。"
+  },
+  {
+    "id": 53,
+    "type": "single",
+    "category": "資料整理",
+    "question": "篩選功能用途？",
+    "options": [
+      "顯示符合條件資料",
+      "永久刪除所有列",
+      "關閉網路",
+      "更換字型"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：顯示符合條件資料。"
+  },
+  {
+    "id": 54,
+    "type": "single",
+    "category": "資料整理",
+    "question": "圖表用途？",
+    "options": [
+      "理解資料趨勢",
+      "取代原始資料",
+      "隱藏數值",
+      "改變格式"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：理解資料趨勢。"
+  },
+  {
+    "id": 55,
+    "type": "single",
+    "category": "資料整理",
+    "question": "欄位名稱原則？",
+    "options": [
+      "清楚一致",
+      "隨意更改",
+      "全部空白",
+      "無關符號"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：清楚一致。"
+  },
+  {
+    "id": 56,
+    "type": "single",
+    "category": "資料整理",
+    "question": "唯一識別碼用途？",
+    "options": [
+      "辨識不同紀錄",
+      "增加顏色",
+      "字體陰影",
+      "增加空白"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：辨識不同紀錄。"
+  },
+  {
+    "id": 57,
+    "type": "single",
+    "category": "資料整理",
+    "question": "CSV常見分隔符號？",
+    "options": [
+      "逗號",
+      "問號",
+      "驚嘆號",
+      "星號"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：逗號。"
+  },
+  {
+    "id": 58,
+    "type": "single",
+    "category": "資料整理",
+    "question": "資料輸入後檢查？",
+    "options": [
+      "降低錯誤",
+      "增加雜訊",
+      "改變螢幕",
+      "縮短檔名"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：降低錯誤。"
+  },
+  {
+    "id": 59,
+    "type": "single",
+    "category": "資料整理",
+    "question": "版本紀錄用途？",
+    "options": [
+      "追蹤修改",
+      "隱藏來源",
+      "刪除歷史",
+      "增加重複"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：追蹤修改。"
+  },
+  {
+    "id": 60,
+    "type": "single",
+    "category": "資料整理",
+    "question": "資料分類前？",
+    "options": [
+      "確認分類規則",
+      "選背景顏色",
+      "選鍵盤品牌",
+      "選螢幕大小"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "正確答案：確認分類規則。"
   }
 ]
