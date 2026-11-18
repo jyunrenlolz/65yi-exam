@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#142235">
+<title>模擬測驗中心</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="brand">EXAM PRACTICE</div>
+  <h1>模擬測驗中心</h1>
+  <p>選擇模式，開始練習</p>
+</header>
+<main class="container">
+  <section id="home" class="panel">
+    <div class="cards">
+      <button class="mode-card" id="examMode"><span class="icon">▣</span><strong>完整模擬測驗</strong><small>隨機題目・一次交卷・成績統計</small></button>
+      <button class="mode-card" id="practiceMode"><span class="icon">▤</span><strong>題型練習</strong><small>逐題作答・立即查看解析</small></button>
+      <button class="mode-card" id="wrongMode"><span class="icon">↻</span><strong>錯題練習</strong><small>重練上次答錯的題目</small></button>
+      <button class="mode-card" id="allMode"><span class="icon">⌕</span><strong>全部題目</strong><small>依題庫順序練習</small></button>
+    </div>
+    <div class="settings">
+      <label>模擬題數
+        <select id="count"><option>10</option><option>20</option><option>30</option><option value="all">全部</option></select>
+      </label>
+      <label>作答模式
+        <select id="mode"><option value="exam">考試模式</option><option value="instant">即時解析</option></select>
+      </label>
+      <label>計時
+        <select id="timer"><option value="0">不限時</option><option value="15">15 分鐘</option><option value="30">30 分鐘</option><option value="60">60 分鐘</option></select>
+      </label>
+    </div>
+    <p class="hint">目前附帶的是示範題庫。請將經確認可使用的題目整理成 questions.json 格式後替換。</p>
+  </section>
+
+  <section id="quiz" class="panel hidden">
+    <div class="quiz-top"><span id="category">題目</span><span id="clock"></span></div>
+    <div class="progress"><div id="progressFill"></div></div>
+    <div class="question-meta"><span id="qNum"></span><span id="qType"></span></div>
+    <h2 id="questionText"></h2>
+    <div id="options" class="options"></div>
+    <div id="feedback" class="feedback hidden"></div>
+    <div class="nav">
+      <button class="secondary" id="prev">上一題</button>
+      <span id="answered"></span>
+      <button class="primary" id="next">下一題</button>
+    </div>
+    <button class="submit" id="submit">交卷</button>
+  </section>
+
+  <section id="result" class="panel hidden">
+    <h2>測驗結果</h2>
+    <div class="score" id="score"></div>
+    <div class="stats" id="stats"></div>
+    <h3>題型分析</h3><div id="analysis"></div>
+    <h3>逐題回顧</h3><div id="review"></div>
+    <div class="nav"><button class="secondary" id="homeBtn">返回首頁</button><button class="primary" id="retry">重新測驗</button></div>
+  </section>
+</main>
+<div id="confirm" class="modal hidden">
+  <div class="modal-box"><h3>確認交卷</h3><p>交卷後將計算本次成績。</p><button class="secondary" id="cancelSubmit">繼續作答</button><button class="primary" id="confirmSubmit">確認交卷</button></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
